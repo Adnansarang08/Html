@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Example</h1>
+    <form>
+        <div>
+            <Label for="Full Name">Full Name</Label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name">
+        </div>
+        <br>
+
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter Age">
+        </div>
+        <br>
+
+        <div>
+            <label for="txtpassword">Password</label>
+            <input type="password" id="txtpassword" name="password" placeholder="Enter Password">
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" name="message" placeholder="Enter message"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label>Hobbies</label>
+            <div>
+                <input type="checkbox" id="sports" name="sports">
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" id="reading" name="reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="writing" name="writing">
+                <label for="writing">Writing</label>
+
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="rather not to say" name="gender">
+            <label for="rather not to say">Rather not to say</label>
+        </div>
+        <br>
+        <div>
+            <label for="timing">Timing</label>
+
+            <input type="radio" id="timing" name="timing">
+            <label for="timing">Weekdays</label>
+
+            <input type="radio" id="timing" name="timing">
+            <label for="timing">Weekends</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label>
+            <select id="Country" name="country">
+                <option value="1">India</option>
+                <option value="2">Us</option>
+                <option value="3">Uk</option>
+                <option value="4">China</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="subject">Subject</label>
+            <select id="Subject" multiple name="subject">
+            <option value="10">Maths</option>
+            <option value="11">English</option>
+            <option value="12">History</option>
+            <option value="13">Geography</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button type="submit"><b>Save</b></button>
+            <button type="reset"><b>Reset</b></button>
+        </div>
+
+    </form>
+</body>
+
+</html>
